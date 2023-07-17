@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokedex Clinical Curriculum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .pokedex-entry {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid black;
+            border-radius: 15px;
+            background-color: #fff;
+        }
+
+        .pokedex-image {
+            flex: 1;
+        }
+
+        .pokedex-image img {
+            max-width: 100%;
+            border-radius: 15px;
+        }
+
+        .pokedex-info {
+            flex: 2;
+            padding-left: 20px;
+        }
+
+        .pokedex-title {
+            font-size: 24px;
+            color: #FF0000;
+        }
+
+        .pokedex-description {
+            font-size: 18px;
+        }
+
+        input[type=checkbox] {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pokedex Clinical Curriculum</h1>
+
+    <div class="pokedex-entry">
+        <div class="pokedex-image">
+            <img src="/Users/djradioedit/Library/Mobile Documents/com~apple~CloudDocs/HealthSource Med/Files/Medidex/Art Inspo/DALL·E 2023-07-17 07.01.10.png" alt="Clinical Encounter Image 1">
+        </div>
+        <div class="pokedex-info">
+            <h2 class="pokedex-title">Clinical Encounter 1</h2>
+            <p class="pokedex-description">Description of the Clinical Encounter 1...</p>
+            <input type="checkbox" id="pokedex-check-1" name="pokedex-check-1">
+            <label for="pokedex-check-1">Caught</label>
+        </div>
+    </div>
+
+    <div class="pokedex-entry">
+        <div class="pokedex-image">
+            <img src="/Users/djradioedit/Library/Mobile Documents/com~apple~CloudDocs/HealthSource Med/Files/Medidex/Art Inspo/DALL·E 2023-07-17 07.01.39 - a 1999 base set snorlax Pokemon using a sleep apnea machine in the style of a Shadowless Holo Pokemon card. Matisse style. .png" alt="Clinical Encounter Image 2">
+        </div>
+        <div class="pokedex-info">
+            <h2 class="pokedex-title">Clinical Encounter 2</h2>
+            <p class="pokedex-description">Description of the Clinical Encounter 2...</p>
+            <input type="checkbox" id="pokedex-check-2" name="pokedex-check-2">
+            <label for="pokedex-check-2">Caught</label>
+        </div>
+    </div>
+
+</body>
+</html>
